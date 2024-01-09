@@ -1,13 +1,16 @@
 html, body {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     background-color: #2F4F30;
     color: white;
+    box-sizing: border-box;
+    /* overflow: hidden; */
 }
 
 
 .titulo {
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.637);
     color: white;
     padding: 20px;
     font-size: 25px;
@@ -15,11 +18,20 @@ html, body {
 
 .carta {
     position: relative;
-    width: 150px;
+    width: 130px;
     left: 100px;
     margin-left: -75px;
 }
 
 #computadora-cartas, #jugador-cartas {
-    height: 240px;
+    height: 220px;
+    
+}
+#contenedor__cartas-computadora,#contenedor__cartas-jugador {
+    margin: 0 auto;
+    
+}
+.contenedor__btn{
+  
+    margin: 0 auto;
 }
